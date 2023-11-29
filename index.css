@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background:white;
+    color: black;
+}
+
+header {
+    background: #3498db;
+    color:  #2ecc71;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flexnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+nav ul li a {
+    color:  #03fc6b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: white;
+    padding: 20px 15px
+}
+
+#showcase {
+    background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(22, 22, 22, 0.5)),  url(images/pexels-visual-tag-mx-5361247.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+h4 {
+    color: white;
+    margin-left: 30px;
+    padding-top: 80px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.allaboutus {
+    display: flex;
+    margin-top: 20px;
+}
+
+#aboutus {
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.box {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    margin-right: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.box:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.image {
+    width: 296px;
+    height: 100px;
+    background: url(images/pro.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.company {
+    text-align: center;
+    font-size: 50px;
+}
+
+.allcard {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    width: 200px;
+    height: 150px;
+    background: url(images/man.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile1 {
+    width: 200px;
+    height: 150px;
+    background: url(images/woman\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile2 {
+    width: 200px;
+    height: 150px;
+    background: url(images/woman2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile3 {
+    width: 200px;
+    height: 150px;
+    background: url(images/woman3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+#team {
+    margin-left: 220px;
+    margin-top: 100px;
+}
+
+.team {
+    margin-left: 380px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 10px;
+    width: 170px;
+    height: 20px;
+    border: none;
+}
+
+.allservice {
+    display: flex;
+    margin-left: 60px;
+}
+
+#service {
+    margin-top: 60px;
+}
+
+.paper {
+    width: 300px;
+    height: 250px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.paper:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.business {
+    width: 300px;
+    height: 150px;
+    background: url(images/blog\ website.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business1 {
+    width: 300px;
+    height: 150px;
+    background: url(images/bank\ website.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business2 {
+    width: 300px;
+    height: 150px;
+    background: url(images/bitcoin\ mining\ website.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business3 {
+    width: 300px;
+    height: 150px;
+    background: url(images/e-commerce\ website.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business4 {
+    width: 300px;
+    height: 150px;
+    background: url(images/socialmedia\ website.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business5 {
+    width: 300px;
+    height: 150px;
+    background: url(images/investment\ website.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business6 {
+    width: 300px;
+    height: 150px;
+    background: url(images/restaurant\ website.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.business7 {
+    width: 300px;
+    height: 150px;
+    background: url(images/gold\ coin.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact1 {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border: none;
+}
+
+.allservice2 {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-left: 580px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    background: #3498db;
+}
+
+.form {
+    margin-left: 60px;
+}
+
+input {
+    width: 1259px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+input[type=button] {
+    width: 1259px;
+    border: none;
+}
+
+.fa-file-waveform, .fa-people-group, .fa-circle-dollar-to-slot, .fa-phone-volume, .fa-copyright {
+    padding-right: 10px;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.we {
+    text-align: center;
+}
+
+#skills {
+    margin-left: 100px;
+}
+
+.contain {
+    width: 1100px;
+    height: 30px;
+    background: black;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.html {
+    width: 99%;
+    height: 30px;
+    background: green;
+}
+
+.css {
+    width: 80%;
+    height: 30px;
+    background: greenyellow;
+}
+
+.js {
+    width: 30%;
+    height: 30px;
+    background: rgb(221, 49, 49);
+} 
+
+.php {
+    width: 15%;
+    height: 30px;
+    background: red;
+}
